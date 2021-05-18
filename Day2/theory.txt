@@ -1,0 +1,44 @@
+#Primitive Data types in python
+
+String : Collection of character
+
+Integer : Number without decimal 
+
+Float: With decimal
+
+Boolean: True, False
+
+type() -> gives type of variable 
+str() -> Convert to string
+float() -> Convert to float
+int() -> Convert to int
+
+
+Division will give float result Ex 4 / 2 = 2.0
+// -> will convert to integer Ex 3 // 2 = 1
+
+** exponential 2**3 = 2 * 2 * 2
+
+
+Left to right while solving equation
+()   level 1
+**   level 2
+* /  level 3 (same priority)
++ -  level 4 (same priority)
+
+3 * 3 + 3 / 3 - 3
+
+9 + 3 / 3 - 3
+
+9 + 1 - 3
+
+10 - 3
+
+7
+
+
+F-Strings:
+To avoid convert every other data type to string
+Ex:
+
+f"this is my string {first_variable}, I can add another {second_variable}"
