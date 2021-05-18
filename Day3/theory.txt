@@ -1,0 +1,51 @@
+#Control Flow and logical operators
+
+If-else statement syntax:
+
+If condition:
+  Do this
+else:
+  Do this
+
+
+Nested if-else syntax:
+
+Two ways:
+
+1:
+If condition:
+  Do this
+  If condition:
+    Do this
+  else:
+    Do this
+else:
+  Do this
+
+2:
+If condition:
+  Do A
+elif condition:
+  Do B 
+else:
+  Do C
+
+Indentation plays an important role in python. To write only a if block in python we need to give proper indentation to the statement that will execute if the condition is true.
+
+For Example
+
+If condition:
+  Do A
+
+Do B
+
+
+B statement will execute no matter condition is true or false. A on the other hand will execute only when the condition is true
+
+
+
+Logical Operators
+
+A and B
+C or D
+not E
