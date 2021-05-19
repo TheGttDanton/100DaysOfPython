@@ -1,0 +1,31 @@
+1. Randomisation 
+
+Python uses Mersenne twister algorithm to achieve randomisation.
+
+`import random`
+Random module is the one responsible for generating random values.
+
+To create your own module in python, you use need to create a separate python file and import it in your current file. Now you can access all of your code written in the module python file.
+
+random.randint(max,min) -> generate random integer between max and min and including both
+
+random.random() -> generate random float between 0 and 1 and excluding 1.0
+
+
+2. Lists
+Similar to array
+It is collection of data. These data can have same or different data types.
+Ex
+
+my_list = ["Hello", "qw", 1]
+
+my_list.append("new Data") -> To add the data
+
+
+Nested lists:
+List that contain list
+nested_list = [my_list]
+
+Important links:
+askpython.com --------> to search for python tutorial/ resources
+https://docs.python.org/3/library/ -------> python documentation 
