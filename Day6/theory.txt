@@ -1,0 +1,19 @@
+#functions, code blocks, while loop
+
+1. Function
+Some example of python functions
+print(), int(), str(), range(), len()
+
+How to define functions in python:
+
+def my_function():
+  Do A
+  Do B
+
+
+2. While loops
+
+Syntax
+
+while condition:
+  Do A
