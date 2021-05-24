@@ -1,0 +1,16 @@
+def my_function(something):
+  #Do this with something
+  #Then do this
+
+
+Calling this function:
+
+my_function(data)
+
+After calling this inside the function something will be equal to data.
+
+
+#postional arguments: The above example is of positional argument 
+# keyword arguments:
+
+my_function(something= data)
