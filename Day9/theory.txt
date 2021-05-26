@@ -1,0 +1,30 @@
+Dictionaries in python
+
+Syntax
+
+{Key: Value}
+
+For example:
+
+{"MyKey": "My value"}
+
+To retrieve items form dictionary:
+dictionary[Key]
+
+
+Add new items:
+dictionary[Key] = value
+
+
+Create empty or wipe an dictionary:
+
+dictionaty = {}
+
+
+Nested Dictionary:
+dictionaty = {
+  "list": ["1", "2", "3"],
+  "dictionary": {
+    "key": "value"
+  }
+}
