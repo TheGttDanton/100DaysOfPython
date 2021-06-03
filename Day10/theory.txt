@@ -1,0 +1,8 @@
+DocString
+
+This string is used in documentations and it is defined by:
+
+def func_name():
+  """ My doc string """
+
+When someone uses our functions, the doc string can explain the functions.
