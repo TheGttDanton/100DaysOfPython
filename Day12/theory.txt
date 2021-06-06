@@ -1,0 +1,38 @@
+Scope in python
+
+Global scope vs local scope
+
+enemies = 2
+
+def increase_enemies():
+  enemies = 3
+  print(enemies)
+
+increase_enemies()
+print(enemies)
+
+Surprisingly the output of the above function is 3 and 2.
+
+#####################
+For modifying global variables from a local scope, we have to use the "global" keyword.
+
+So to rectify the above program we to add 
+
+global enemies
+
+in the increase_enemies() function
+
+######################
+There is no block scope in python.
+
+So this code is perfectly fine
+
+ def my_fun():
+   Value = 4
+   if value > 2
+     new_value = 5
+   print(new_value)
+
+#####################
+
+Use uppercase variable name for the global constant.
