@@ -1,0 +1,5 @@
+1. Breakdown the problem. 
+2. Make a todo list. Start with easiest.
+3. Turn the problem into comments.
+4. Write code -> Run -> Fix
+5. Next task until finished 
