@@ -14,12 +14,18 @@ class Snake:
 
     def create_initial_snake(self):
         for i in range(3):
-            snake = Turtle("square")
-            snake.color("white")
-            snake.penup()
-            xPos = -20 * i
-            snake.goto(xPos, 0)
-            self.snake_body.append(snake)
+            x_pos = -20 * i
+            self.add_segment((x_pos, 0))
+
+    def add_segment(self, position):
+        new_tail = Turtle("square")
+        new_tail.color("white")
+        new_tail.penup()
+        new_tail.goto(position)
+        self.snake_body.append(new_tail)
+
+    def extend(self):
+        self.add_segment(self.snake_body[-1].position())
 
     def move(self):
         snake_length = len(self.snake_body) - 1
